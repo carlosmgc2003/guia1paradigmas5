@@ -1,6 +1,6 @@
-#Facultad de Ingeniería del Ejército
-##Paradigmas de Programación 5
-###Guía de Ejercicio Nro 1
+# Facultad de Ingeniería del Ejército
+## Paradigmas de Programación 5
+### Guía de Ejercicio Nro 1
 **Tema:** Ejercicios generales en Python
 **Objetivo:** Familiarizarse con el lenguaje utilizando las estructuras más comunes del lenguaje. Mostrar su utilidad y comprobar su funcionamiento.
 **Dado por:** Ing. Nicolás Díaz Pais
