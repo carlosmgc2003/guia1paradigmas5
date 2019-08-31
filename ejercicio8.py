@@ -18,7 +18,7 @@ def ej08a(texto):
         indice += 1 # se incrementa en uno el indice
         if indice % 8 == 0: #b. cortar el elemento al octavo caracter de la cadena
         # Comienza un nuevo byte
-            resultado.append(str(current_byte))
+            resultado.append(str(current_byte))#No se por que usa str, funciona igual...
             current_byte = ""
     return list(set(resultado)) #Si hacer un set
 
