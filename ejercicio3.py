@@ -6,4 +6,5 @@ def ascii_dict():
     valores = list(map(lambda x : ord(x),claves))
     return dict(zip(claves,valores))
 
-print(ascii_dict())
+if __name__ == "__main__":
+    print(ascii_dict())
