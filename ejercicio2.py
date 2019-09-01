@@ -7,7 +7,7 @@ def factorial_recursivo(numero: int) -> int:
     else:
         return 1
 
-print(factorial_recursivo(8))
+
 
 def factorial_iterativo(numero: int) -> int:
     resultado = 1
@@ -15,4 +15,6 @@ def factorial_iterativo(numero: int) -> int:
         resultado = resultado * n
     return resultado
 
-print(factorial_iterativo(8))
+if __name__ == "__main__":
+    print(factorial_recursivo(8))
+    print(factorial_iterativo(8))
