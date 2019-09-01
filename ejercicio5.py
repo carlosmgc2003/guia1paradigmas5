@@ -6,4 +6,5 @@ import math
 def calcular_circulo(radio: int) -> tuple:
     return 2 * math.pi * radio, math.pi * radio ** 2
 
-print(calcular_circulo(5))
+if __name__ == "__main__":
+    print(calcular_circulo(5))
