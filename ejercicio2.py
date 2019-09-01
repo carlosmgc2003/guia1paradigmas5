@@ -1,3 +1,6 @@
+#Escribir la funcion factorial, que reciba como parametro el numero inicial y compute el resultado.
+#Hacer la implementacion recursiva y tambien la iterativa.
+
 def factorial_recursivo(numero: int) -> int:
     if numero > 0:
         return numero * factorial_recursivo(numero - 1)
