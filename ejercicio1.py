@@ -11,4 +11,6 @@ def generar_numeros(inicio: int, fin: int):
         if i < len(numeros) - 1:
             print(',',end='')
 
-generar_numeros(1,100)
+            
+if __name__ == "__main__":
+    generar_numeros(1,100)
